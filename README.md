@@ -48,11 +48,11 @@ console.log(hello('TypeScript'));
 ```
 * VSCode 터미널에서 컴파일
 ```
-tsc hello.ts
+tsc ex01-01.ts
 ```
 * 실행
 ```
-node hello.js
+node ex01-01.js
 ```
 
 ## 브라우저 테스트
