@@ -93,6 +93,11 @@ npx serve .
 ### ESLint 설정
 * 설정 파일 작성 방법: https://eslint.org/docs/latest/use/configure/configuration-files
 * 프로젝트 루트에서 다음 명령 실행후 프로젝트 환경 질문에 답변하면 .eslintrc.js 파일 생성됨
+* package.json 파일 생성
+```
+npm init -y
+```
+* .eslintrc.js 파일 생성
 ```
 npm init @eslint/config
 또는
@@ -110,7 +115,7 @@ npx eslint --init
   - browser
 * What format do you want your config file to be in?
   - JavaScript
-* eslint-plugin-react@latest eslint@latest. Would you like to install them now?
+* @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest eslint@latest. Would you like to install them now?
   - Yes
 * Which package manager do you want to use?
   - npm
