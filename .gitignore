@@ -3,6 +3,9 @@ ins
 .history
 # workspace
 
+# 오피스 임시파일
+~$*
+
 # Logs
 logs
 *.log
