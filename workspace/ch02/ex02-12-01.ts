@@ -19,5 +19,9 @@
   var todo2: TodoInfo = { _id: 2, title: "할일2", content: "상세 조회에 사용", done: true };
   var todo3: TodoList = { _id: 3, title: "할일3", done: false };
 
+  type TodoDetail = TodoRegist & {
+    info: string;
+  };
+
   console.log(todo1, todo2, todo3);
 })();

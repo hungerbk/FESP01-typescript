@@ -7,7 +7,7 @@
     avg(): number;
   }
 
-  class Highschool implements Score {
+  class Highschool {
     // 타입을 미리 정의해주는 과정이 필요함
     kor: number;
     eng: number;

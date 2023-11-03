@@ -9,7 +9,7 @@
     // address?: string;
     // hobby?: string;
     // 필수 요건이 아닌 것들을 묶어서 설정할 수 있음
-    [etc: string]: string | number | undefined; // [속성 이름에 대한 타입]: 값 타입
+    [etc: string]: string | number | undefined; // [속성 이름에 대한 타입(string(객체), number(배열)만 가능)]: 값 타입
   }
 
   var kim: User = {
