@@ -20,4 +20,4 @@ import * as MyMath from "./math.js";
 
 console.log(1, MyMath.sum(data));
 console.log(1, MyMath.substract(data));
-console.log(1, MyMath.divide(data)); //undefined
+// console.log(1, MyMath.divide(data)); //undefined
